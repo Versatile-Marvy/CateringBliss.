@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosevel's Confectionery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #ff4d4d;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #ff4d4d;
+        }
+        .menu-item {
+            margin: 10px 0;
+        }
+        .contact-info {
+            background-color: #ffcccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #ff4d4d;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rosevel's Confectionery</h1>
+    <p>Delicious Cakes and Pastries for Every Occasion</p>
+</header>
+
+<div class="container">
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>At Rosevel's Confectionery, we specialize in creating delightful cakes and pastries that make your celebrations sweeter. From classic vanilla cakes to decadent chocolate treats, our confections are crafted with the finest ingredients and a passion for perfection.</p>
+    </section>
+
+    <section class="section" id="services">
+        <h2>Our Menu</h2>
+        
+        <div class="menu-item">
+            <h3>Specialty Cakes</h3>
+            <ul>
+                <li><strong>Vanilla Cakes</strong>: Plain (₦8,000), Decorated (₦12,000), Two Steps (₦18,000)</li>
+                <li><strong>Strawberry Cakes</strong>: Plain (₦8,000), Decorated (₦12,000), Two Steps (₦18,000), Real Strawberries (₦15,000 - ₦30,000)</li>
+                <li><strong>Fruit Cakes</strong>: Plain (₦10,000), Decorated (₦15,000), Two Steps (₦25,000)</li>
+                <li><strong>Coconut Cakes</strong>: Plain (₦8,000), Decorated (₦12,000), Two Steps (₦18,000)</li>
+                <li><strong>Chocolate Cakes</strong>: Plain (₦8,000), Decorated (₦12,000), Real Chocolate Bars (₦15,000 - ₦22,000), Two Steps (₦18,000)</li>
+                <li><strong>Red Velvet Cakes</strong>: Plain (₦9,000), Decorated (₦15,000), Two Steps (₦25,000)</li>
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <h3>Foil Packed Cakes</h3>
+            <ul>
+                <li>Small Foil Cake Pack: Strawberry, Vanilla, Chocolate (₦2,000 each)</li>
+                <li>Big Foil Cake Pack: Plain Vanilla (₦3,500), Chocolate Chips, Raisins, Nuts (₦4,000 each)</li>
+                <li>Mixed Flavors: Vanilla + Chocolate, Vanilla + Strawberry, Chocolate + Strawberry (₦4,000 each)</li>
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <h3>Cake Parfaits</h3>
+            <ul>
+                <li>Vanilla Cake Parfait (₦2,500)</li>
+                <li>Strawberry Cake Parfait (₦2,500)</li>
+                <li>Chocolate Cake Parfait (₦2,500)</li>
+                <li>Mixed Flavors (₦3,000)</li>
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <h3>Chin Chin</h3>
+            <ul>
+                <li>Small Pack (₦3,000)</li>
+                <li>Big Pack (₦6,000)</li>
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <h3>Savory Treats</h3>
+            <ul>
+                <li>Pack of 12 finger-sized Samosas (₦3,500)</li>
+                <li>Pack of 12 finger-sized Spring Rolls (₦3,500)</li>
+                <li>Small chops in foil plate: Small (₦1,000), Big (₦2,000)</li>
+                <li>Savoury Meat Pie (₦600 each)</li>
+                <li>Savoury Chicken Pie (₦800 each)</li>
+                <li>Savoury Egg Rolls (₦400 each)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +234 123 4567</p>
+            <p><strong>Email:</strong> info@rosevelsconfectionery.com</p>
+            <p><strong>Address:</strong> 123 Sweet St., Dessert City, Nigeria</p>
+        </div>
+    </section>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Rosevel's Confectionery. All rights reserved.</p>
+</div>
+
+</body>
+</html>
